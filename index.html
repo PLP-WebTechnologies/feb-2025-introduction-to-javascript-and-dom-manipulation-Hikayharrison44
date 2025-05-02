@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1 id="main-heading">Welcome to My Dynamic Page</h1>
+  </header>
+
+  <section>
+    <p id="dynamic-text">This text will change when the button is clicked.</p>
+    <button onclick="changeContent()">Change Text & Style</button>
+  </section>
+
+  <article>
+    <h2>About This Page</h2>
+    <p>This page demonstrates dynamic interaction using JavaScript.</p>
+  </article>
+
+  <footer>
+    <button onclick="addElement()">Add Element</button>
+    <button onclick="removeElement()">Remove Element</button>
+    <div id="element-container"></div>   
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
